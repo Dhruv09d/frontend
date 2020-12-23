@@ -1,0 +1,225 @@
+body{ 
+    margin: 0;
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar */
+ .navbar ul {
+    list-style-type: none;
+    padding: 0 150px 0 0;
+    overflow: hidden;   
+    margin: 0;
+    
+}
+nav{
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    background-color: white;
+}
+.navbar ul li {
+    float: right;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 20px 28px;
+    margin: 0 4px 0 4px;
+    text-decoration: none;
+   
+}
+.navbar  ul li a:hover {
+    color: hotpink;
+}
+
+.logo img{
+    float:left;
+    height: 70px;
+    margin: 0 ;
+    padding: 0;
+    
+}
+/* navbar end*/
+
+/* main image*/
+.main-img {  
+    
+    background: #34ebae;
+    overflow: hidden;
+    
+}
+
+.main-img img {
+    padding-bottom: 0px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    
+}
+
+/* main image end*/
+.main-img-text {
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main-img-text h1 {
+    font-size: 50px;
+    margin: 7px;
+}
+@media (max-width: 870px) {
+    .main-img-text{
+      font-size:20px;
+    }
+}
+
+.main-img-text button, #Subscribe_btn {
+    background-color: white; 
+    width: 250px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*OUR PRODUCT */
+.body-content{
+    margin: 30px;
+}
+.body-content h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.body-content-Service{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.body-content-Service img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.body-content-Service-1 {
+    flex :1;
+    margin: 20px;
+}
+.body-content-Service-2 {
+    flex :1;
+    margin: 20px;
+}
+.body-content-Service-3 {
+    flex :1;
+    margin: 20px;
+}
+
+
+/*OUR PRODUCT end*/
+
+.aboutus {
+    display: inline-flex;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    height: 600px;
+    background: #e8e8e8;
+}
+.about-img, .about-text {
+    flex: 1;
+    margin: 100px;
+    
+}
+@media (max-width: 800px) {
+    .body-content-Service, .aboutus {
+      flex-direction: column;
+    }
+  }
+
+  
+/*Staff */
+.staff-id {
+    display:inline-flex;
+    margin-top: 20px ; 
+    margin-left: 200px;
+}
+
+.staff-img {
+    flex: 3;
+    text-align: left;  
+    width: 100px;
+    height: 100px;
+}
+
+.staff-detail {
+    flex : 7;
+}
+
+/* Subscribe */
+input[type=email]{
+    width: 40%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 3px solid white;
+    border-radius: 9px;
+    background:  #34ebae;
+    font: 20px;
+}
+
+#Subscribe_btn{
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+.subscribe {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    background-color: #34ebae;
+    padding: 70px 0 65px 0;
+}
+
+.company-info {
+    display:inline-flex;
+    text-align: justify;
+    
+    
+}
+.abt-company, .Qck-link, .Cont-us{
+    flex:1;
+    margin: 10px;
+    align-items: center;
+}
+
+.Qck-link ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    
+}
+.footer p {
+   padding: 10px;
+   margin-bottom: 0;
+}
